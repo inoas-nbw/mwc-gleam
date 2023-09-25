@@ -16,5 +16,16 @@
       "version": "latest",
       "dockerDashComposeVersion": "v2"
     }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "gleam.gleam",
+        "aaron-bond.better-comments",
+        "streetsidesoftware.code-spell-checker",
+        "tamasfe.even-better-toml",
+        "PKief.material-icon-theme"
+      ]
+    }
   }
 }
