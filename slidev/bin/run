@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+npx slidev --open --port 3030
