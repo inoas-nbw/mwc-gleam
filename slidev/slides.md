@@ -48,5 +48,15 @@ Diese hängen meist mit striktem handling von inputs zusammen.
 
 <sub>Disclaimer: Obviously crashes are *NEVER* good! <mdi-emoticon-poop /></sub>
 
+---
+
+Gleam bringt _type-safety_ auf die targets Beam und JavaScript (eine Sprache für Front- und Backend) ohne große Ausnahmen oder Legacy (wie in TS).
+
+---
+
+
+<img src="/star-history-2.png" class="rounded drop-shadow-2xl m-10 h-90" />
+
 --
 
+Language Tour: <https://gleam.run/book/tour/index.html>
