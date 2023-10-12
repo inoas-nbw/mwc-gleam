@@ -5,8 +5,7 @@
     6379,
     5432
   ],
-  // && asdf global erlang 26.0 && asdf install rebar 3.22.1 && asdf global rebar 3.22.1
-  "postCreateCommand": "/asdf-post-create.sh",
+  "postCreateCommand": "/asdf-post-create.sh && asdf global erlang 26.0 && asdf install rebar 3.22.1 && asdf global rebar 3.22.1",
   "remoteUser": "vscode",
   "features": {
     "homebrew": "latest",
