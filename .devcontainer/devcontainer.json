@@ -5,11 +5,15 @@
     6379,
     5432
   ],
-  "postCreateCommand": "/asdf-post-create.sh && asdf global erlang 26.0 && asdf install rebar 3.22.1 && asdf global rebar 3.22.1",
+  // && asdf global erlang 26.0 && asdf install rebar 3.22.1 && asdf global rebar 3.22.1
+  "postCreateCommand": "/asdf-post-create.sh",
   "remoteUser": "vscode",
   "features": {
     "homebrew": "latest",
     "ghcr.io/devcontainers/features/sshd:1": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/common-utils:2": {
       "version": "latest"
     },
     "ghcr.io/devcontainers/features/docker-in-docker:1": {
